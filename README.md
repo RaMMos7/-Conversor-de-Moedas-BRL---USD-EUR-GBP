@@ -22,8 +22,6 @@ Este é um site simples e eficiente para conversão de moedas do **Real Brasilei
 - API de câmbio para atualização dos valores  
 - Frameworks (se aplicável)  
 
-## 📸 **Captura de Tela**  
-![Preview do Conversor](converte.png)  
 
 ## 📦 **Instalação e Execução**  
 ```bash
@@ -34,11 +32,6 @@ npm install  # ou pip install -r requirements.txt (se for Python)
 npm start    # ou python app.py
 ```
 
-## 🔗 **Demonstração Online**  
-[🔗 Acesse o site aqui](https://seu-usuario.github.io/conversor-moedas)  
-
-## 🤝 **Contribuição**  
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.  
 
 ---
 
