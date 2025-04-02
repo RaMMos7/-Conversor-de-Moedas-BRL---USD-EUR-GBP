@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="troca" href="troca.png">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Convert</title>
+  </head>
+  <body>
+    <img src="logo.svg" alt="Convert logo" />
+
+    <main>
+        <form>
+            <label for="amount">Valor (R$) <img src="brasil.png" alt="" style="width: 20px; height: auto; align-items: right; margin: 4px;"></label>
+            <input type="text" name="amount" id="cover" placeholder="0" required />
+
+            <label for="currency">Moeda  <img src="moeda.png" alt="" style="width: 20px; height: auto; align-items: right; margin: 4px;"></label>
+            
+            <select name="currency" id="currency" required>
+                <option value="" disabled selected hidden>Selecione a moeda</option>
+                <option value="USD" id="USD">Dólar Americano</option>
+                <option value="EUR" id="EUR">Euro</option>
+                <option value="GBP" id="GBP">Libra Esterlina </option>
+            </select>
+
+            <button type="button" onclick="converter()">Converter em moeda estrangeira</button>
+        </form>
+
+        <div id="resultado-container">
+            <p id="resultado" style="text-align: center;">Resultado aparecerá aqui :</p>
+            <br>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html> 
