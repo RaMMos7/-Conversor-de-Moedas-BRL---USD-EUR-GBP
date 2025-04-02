@@ -1,38 +1,37 @@
-Aqui está uma descrição bem estruturada para o seu repositório no GitHub:  
+Aqui está a descrição ajustada para o seu projeto usando apenas **HTML, CSS e JavaScript**:  
 
 ---
 
 # **💱 Conversor de Moedas BRL -> USD, EUR, GBP**  
 
-Este é um site simples e eficiente para conversão de moedas do **Real Brasileiro (BRL)** para **Dólar (USD)**, **Euro (EUR)** e **Libra Esterlina (GBP)** em tempo real.  
+Este é um site simples para conversão de moedas do **Real Brasileiro (BRL)** para **Dólar (USD)**, **Euro (EUR)** e **Libra Esterlina (GBP)**, utilizando apenas **HTML, CSS e JavaScript**.  
 
 ## 🌎 **Recursos**  
-✅ Conversão precisa e atualizada com base em APIs de câmbio  
+✅ Conversão em tempo real com base em APIs de câmbio  
 ✅ Interface intuitiva e responsiva  
+✅ Design moderno e minimalista  
 ✅ Suporte para múltiplas moedas  
-✅ Exibição de taxas de câmbio atuais  
 
 ## 🚀 **Como Usar**  
-1. Selecione a moeda de origem (**BRL**).  
-2. Escolha a moeda para conversão (**USD, EUR ou GBP**).  
-3. Insira o valor e obtenha a conversão instantaneamente.  
+1. Insira o valor em **Real (BRL)**.  
+2. Escolha para qual moeda deseja converter (**USD, EUR ou GBP**).  
+3. O valor convertido será exibido instantaneamente.  
 
 ## 🛠 **Tecnologias Utilizadas**  
-- HTML, CSS e JavaScript  
-- API de câmbio para atualização dos valores  
-- Frameworks (se aplicável)  
+- **HTML** para estruturação da página  
+- **CSS** para estilização e responsividade  
+- **JavaScript** para lógica da conversão e consumo da API de câmbio  
 
 
-## 📦 **Instalação e Execução**  
+## 📦 **Como Executar o Projeto**  
+1. Faça o download do projeto ou clone o repositório:  
 ```bash
 git clone https://github.com/seu-usuario/conversor-moedas.git
-cd conversor-moedas
-# Se houver um backend, execute:
-npm install  # ou pip install -r requirements.txt (se for Python)
-npm start    # ou python app.py
 ```
+2. Abra o arquivo `index.html` no navegador.  
+
 
 
 ---
 
-Se quiser personalizar ainda mais o README, posso adicionar algo específico! 🚀
+Se quiser algo mais específico ou quiser que eu adicione um GIF demonstrando o funcionamento, me avise! 🚀
